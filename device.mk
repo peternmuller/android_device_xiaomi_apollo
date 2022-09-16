@@ -448,6 +448,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0.vendor
+
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
 
