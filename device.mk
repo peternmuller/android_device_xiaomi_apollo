@@ -199,7 +199,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     vendor.display.idle_time=1100 \
     debug.sf.frame_rate_multiple_threshold=144 \
     debug.hwui.skia_tracing_enabled=false \
-    debug.hwui.skia_use_perfetto_track_events=false
+    debug.hwui.skia_use_perfetto_track_events=false \
+    debug.sf.treat_170m_as_sRGB=1
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.avoid_gfx_accel=true
