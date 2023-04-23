@@ -84,7 +84,8 @@ PRODUCT_ODM_PROPERTIES += \
     vendor.audio.feature.spkr_prot.enable=false \
     vendor.audio.hal.output.suspend.supported=false \
     vendor.audio.offload.multiple.enabled=true \
-    vendor.audio.offload.track.enable=false
+    vendor.audio.offload.track.enable=false \
+    vendor.audio.offload.buffer.size.kb=256
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
