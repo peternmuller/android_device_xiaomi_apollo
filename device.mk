@@ -277,6 +277,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
+# limit DPP downscale ratio
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    vendor.hwc.dpp.downscale=4
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
