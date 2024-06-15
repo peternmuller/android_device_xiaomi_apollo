@@ -469,6 +469,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     gps \
     init \
+    keymaster \
     media \
     overlay \
     perf \
@@ -555,9 +556,7 @@ $(call inherit-product, hardware/xiaomi/aidl/vibrator/vibrator-vendor-product.mk
 
 # VNDK
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
-    android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.keymaster@4.1.vendor
+    android.hardware.drm@1.4.vendor
 
 # WLAN
 PRODUCT_PACKAGES += \
