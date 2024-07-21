@@ -162,3 +162,6 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
 
 on boot
     enable vendor.nfc_hal_service
+
+on property:ro.boot.hwlevel=*
+    setprop ro.boot.hardware.revision ${ro.boot.hwlevel}
