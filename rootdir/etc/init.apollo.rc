@@ -164,4 +164,4 @@ on boot
     enable vendor.nfc_hal_service
 
 on property:ro.boot.hwlevel=*
-    setprop ro.boot.hardware.revision ${ro.boot.hwlevel}
+    setprop ro.boot.hardware.revision ${ro.boot.hwc}_${ro.boot.hwlevel}_${ro.boot.hwversion}
