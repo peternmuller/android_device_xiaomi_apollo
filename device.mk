@@ -201,7 +201,6 @@ PRODUCT_PACKAGES += \
 # Init scripts
 PRODUCT_PACKAGES += \
     init.mi.btmac.sh \
-    init.mi.usb.sh \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
