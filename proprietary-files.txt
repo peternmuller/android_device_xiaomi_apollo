@@ -91,11 +91,11 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|7c2800ff344448c21486ee54622dd25
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|972adf0676e5bc980f06d231ed418d3fdd4b206e
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|c2ad2d355d5848c5a93dbb93eb2cbb66519aed96
 vendor/etc/acdbdata/adsp_avs_config.acdb|583081e046b593634feb104a0e99c28c053438c4
-vendor/lib/hw/audio.primary.kona.so|ea3fa38521d5a066b981c2e47ac76eedb94838e2
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.apollo.so;FIX_SONAME|d14839ed7fec1119364639ad4d0f69ffd072c006
 vendor/lib/hw/sound_trigger.primary.kona.so|1c5f738f05c89ac53d637781c089c1aaad525dbb
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
 vendor/lib/vndk/libxlog.so|dad5169deb3296ca1ff4d7e9546e4229cda277b9
-vendor/lib/liba2dpoffload.so|216d9905e64182287cc2428b5b3556c691236cd7
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_apollo.so;FIX_SONAME|5bb0665ac3e2350246d3d29c69669ed46d78b940
 vendor/lib/libacdb-fts.so|58ba780af5c7ef1db1746ec662558073ea9e89fa
 vendor/lib/libacdbloader.so|e8be0831b451d59b3d5bf3d50a031602f3586369
 vendor/lib/libacdbrtac.so|5ef044eb771bbefe9b4a8969318366870b8edc64
@@ -122,7 +122,7 @@ vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
 vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
-vendor/lib/libssrec.so|8d6735fb1fc9a4d8cd009905ef57586bde8c0c76
+vendor/lib/libssrec.so:vendor/lib/libssrec_apollo.so;FIX_SONAME|1f77b6658981e1fdf0d8dc6c6ff639686672018c
 vendor/lib/libstagefright_soft_qtiflacdec.so|012f3cab4b1633df6d3f6b5782a401bf40a2bb7a
 vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
 vendor/lib/libtinycompress.so|a0930950b1b1fc80bb6aba0fcd5a345f0b7e5614

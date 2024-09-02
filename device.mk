@@ -43,6 +43,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.audio.button_jack.switch=0 \
     persist.vendor.audio.ring.filter.mask=0 \
     ro.config.vc_call_vol_steps=11 \
+    ro.hardware.audio.primary=apollo \
     ro.vendor.audio.afe.record=true \
     ro.vendor.audio.aiasst.support=true \
     ro.vendor.audio.dump.mixer=true \
