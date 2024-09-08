@@ -230,6 +230,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# Media
+TARGET_SUPPORTS_OMX_SERVICE := false
+
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.media.omx=0
+
 # Mlipay
 PRODUCT_PACKAGES += \
     IFAAService \

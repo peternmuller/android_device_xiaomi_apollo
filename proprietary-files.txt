@@ -106,16 +106,6 @@ vendor/etc/acdbdata/adsp_avs_config.acdb|583081e046b593634feb104a0e99c28c053438c
 vendor/lib/hw/audio.primary.kona.so|ea3fa38521d5a066b981c2e47ac76eedb94838e2
 vendor/lib/hw/sound_trigger.primary.kona.so|1c5f738f05c89ac53d637781c089c1aaad525dbb
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
-vendor/lib/libOmxAacDec.so|50df60f025bced312a8369d79fc196d059d59555
-vendor/lib/libOmxAlacDec.so|851df810b20f63d166cc919b83bd01e1cd57d3f1
-vendor/lib/libOmxAmrDec.so|7c2a33a84bfc8c5048b33efe5984ede05ae4c531
-vendor/lib/libOmxAmrwbplusDec.so|b02524f30936489d6814f6ab97a9fbf9f71dc2b9
-vendor/lib/libOmxApeDec.so|b35b28aebef692f6b1e4645410b2e2984b84e7f3
-vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
-vendor/lib/libOmxEvrcDec.so|827e34f3068a733c39772d46f3757e42e21975c9
-vendor/lib/libOmxG711Dec.so|30c7455e4dab3ef2277df64f9ebd77a2d8fe433e
-vendor/lib/libOmxQcelp13Dec.so|44698fe731f52e64f4646c6262c9b4adba3d807b
-vendor/lib/libOmxWmaDec.so|c83b4f6b778eee08bfbbda3235720cb5c65baece
 vendor/lib/liba2dpoffload.so|216d9905e64182287cc2428b5b3556c691236cd7
 vendor/lib/libacdb-fts.so|58ba780af5c7ef1db1746ec662558073ea9e89fa
 vendor/lib/libacdbloader.so|e8be0831b451d59b3d5bf3d50a031602f3586369
@@ -133,7 +123,6 @@ vendor/lib/libcapiv2svacnn.so|b00484a75db67ea914a507eb48b63404dfbc7654
 vendor/lib/libcapiv2svarnn.so|97f6bd6b25479fbf0f4f7cb06d9f1a462266f22a
 vendor/lib/libcapiv2vop.so|1cceaefcc1ca55de5bc932a846091e6702c5d508
 vendor/lib/libdrc.so|b066f176f119847059c5aa148f73e1b042fbeab3
-vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libgcs-calwrapper.so|e9845287d8752d9ae89ab5f778fd9168e3832c56
 vendor/lib/libgcs-ipc.so|cf2ea5dcd52dc66369bbc726f4d17cb9d188e632
 vendor/lib/libgcs-osal.so|9f023437197fd01fdadd61844ba0bff88dc8d6a4
@@ -1420,7 +1409,6 @@ vendor/firmware/aw8697_rtp_1.bin|9f32c9bf0776a566d3254129a028dae9bed76b81
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
-vendor/lib/libOmxVpp.so
 vendor/lib/libvppclient.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
