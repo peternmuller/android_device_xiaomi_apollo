@@ -30,6 +30,10 @@ function blob_fixup() {
         vendor/etc/camera/camxoverridesettings.txt)
             sed -i "s/0x10098/0/g" "${2}"
             sed -i "s/0x1F/0x0/g" "${2}"
+            ;;
+        vendor/lib64/libwvhidl.so|vendor/lib64/mediadrm/libwvdrmengine.so)
+            [ "$2" = "" ] && return 0
+            grep -q "libcrypto_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
     esac
 }
 # Default to sanitizing the vendor folder before extraction.
