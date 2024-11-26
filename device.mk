@@ -196,6 +196,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.gatekeeper.disable_spu=true
 
+# GPS
+PRODUCT_PACKAGES += \
+    libcurl.vendor
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.mi.btmac.sh \
