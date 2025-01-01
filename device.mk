@@ -135,6 +135,13 @@ PRODUCT_PACKAGES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# DeviceAsWebcam
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
+
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.usb.uvc.enabled=true
+
 # Device Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
@@ -243,6 +250,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     ApolloCarrierConfig \
+    ApolloDeviceAsWebcam \
     ApolloFrameworks \
     ApolloSettings \
     ApolloSystemUI \
