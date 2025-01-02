@@ -32,6 +32,7 @@ function blob_fixup() {
             sed -i "s/0x1F/0x0/g" "${2}"
             ;;
         vendor/etc/seccomp_policy/atfwd@2.0.policy)
+            [ "$2" = "" ] && return 0
             grep -q 'gettid: ' "${2}" || echo 'gettid: 1' >> "${2}"
             ;;
         vendor/lib64/libwvhidl.so|vendor/lib64/mediadrm/libwvdrmengine.so)
