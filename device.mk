@@ -380,6 +380,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    aptxalsOverlay \
     ApolloCarrierConfig \
     ApolloFrameworks \
     ApolloNfc \
