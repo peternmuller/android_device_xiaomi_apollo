@@ -189,12 +189,17 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor
+    android.hardware.biometrics.fingerprint-service.xiaomi
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/fingerprint/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/fingerprint/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.fingerprint.sensor_location=1080|880|200|local:4630946687422888065 \
+    persist.vendor.fingerprint.sensor_modules=fpc \
+    persist.vendor.fingerprint.type=side
 
 # FRP
 PRODUCT_VENDOR_PROPERTIES += \
