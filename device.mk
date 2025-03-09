@@ -189,7 +189,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.qdcm.mode_combine=1 \
     vendor.display.use_layer_ext=1 \
     vendor.display.defer_fps_frame_count=2 \
-    vendor.display.vds_allow_hwc=1
+    vendor.display.vds_allow_hwc=1 \
+    debug.sf.disable_client_composition_cache=0
 
 PRODUCT_ODM_PROPERTIES += \
     vendor.display.use_smooth_motion=0
