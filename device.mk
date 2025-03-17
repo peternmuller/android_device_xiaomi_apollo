@@ -299,6 +299,11 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
+# Proximity
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.sensors.proximity=false \
+    ro.qti.sensors.proximity=false
+
 # QCRIL
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.cdma_cap=true \
