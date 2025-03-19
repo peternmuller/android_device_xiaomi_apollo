@@ -68,8 +68,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
 
 # Bluetooth
-TARGET_USE_AIDL_QTI_BT_AUDIO := true
-
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.fflag.override.settings_bluetooth_hearing_aid=true \
     persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false \
