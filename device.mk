@@ -66,6 +66,15 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.spkr_prot.tx.sampling_rate=48000 \
     vendor.audio.usb.disable.sidetone=true
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.audio.usb.period_us=20375 \
+    af.resampler.quality=7 \
+    ro.audio.resampler.psd.stopband=132 \
+    ro.audio.resampler.psd.halflength=960 \
+    ro.audio.resampler.psd.cutoff_percent=98 \
+    ro.audio.resampler.psd.tbwcheat=0 \
+    persist.bluetooth.sbc_hd_higher_bitrate=1
+
 PRODUCT_ODM_PROPERTIES += \
     aaudio.mmap_policy=1 \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac-lhdc \
