@@ -91,6 +91,10 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
 
+# Battery
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.config.small_battery=true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
