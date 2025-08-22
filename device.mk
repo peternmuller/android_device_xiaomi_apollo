@@ -402,7 +402,9 @@ PRODUCT_PACKAGES += \
     ApolloSettings \
     ApolloSystemUI \
     AOSPAApolloFrameworks \
-    AOSPAApolloSystemUI
+    AOSPAApolloSystemUI \
+    WifiMainline \
+    WifiResTarget
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
