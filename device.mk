@@ -344,6 +344,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ApolloCarrierConfig \
     ApolloFrameworks \
+    ApolloNfc \
     ApolloSettings \
     ApolloSystemUI \
     AOSPAApolloFrameworks \
