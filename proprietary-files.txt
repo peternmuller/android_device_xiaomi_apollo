@@ -476,7 +476,6 @@ vendor/lib64/libmmcamera_faceproc2.so|3a09ebc6d06a140327c7ca7d506e6196bf0ffe60
 
 # Charger - MIUI
 vendor/bin/batterysecret|7fc17a38e688aa68b416ebfb230f5cc95bdbf901
-vendor/bin/hvdcp_opti|d3dae2d3c64df366b82d11deb100af4d8813131f
 vendor/etc/init/init.batterysecret.rc|9abbe6fd82a0bd5b4499bfe141a5645e76e57606
 
 # CNE
